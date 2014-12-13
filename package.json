@@ -1,0 +1,64 @@
+{
+  "name": "linkvisitor",
+  "title": "Link Visitor",
+  "id": "{9C013B6E-46FC-11DD-B644-FC4D56D89593}",
+  "description": "Mark link(s) as visited or unvisited",
+  "author": "Kevin Milburn",
+  "license": "MPL 1.1",
+  "version": "4.0.1",
+  "preferences-branch" : "linkvisitor",
+  "preferences": [{
+	    "name": "bookmarksVisited",
+	    "title": "Always Mark Bookmarks as Visited",
+	    "type": "bool",
+	    "value": false
+	},
+	{
+	    "name": "visitSelectedKey",
+	    "title": "visitSelectedKey",
+	    "type": "string",
+	    "value": "accel-f3"
+	},
+	{
+	    "name": "unvisitSelectedKey",
+	    "title": "unvisitSelectedKey",
+	    "type": "string",
+	    "value": "alt-f3"
+	},
+	{
+	    "name": "visitAllKey",
+	    "title": "visitAllKey",
+	    "type": "string",
+	    "value": "accel-f2"
+	},
+	{
+	    "name": "unvisitAllKey",
+	    "title": "unvisitAllKey",
+	    "type": "string",
+	    "value": "alt-f2"
+	},
+	{
+	    "name": "showInToolbar",
+	    "title": "showInToolbar",
+	    "type": "bool",
+	    "value": false
+	},
+	{
+	    "name": "doOverrideColour",
+	    "title": "doOverrideColour",
+	    "type": "bool",
+	    "value": false
+	},
+	{
+	    "name": "overrideColour",
+	    "title": "overrideColour",
+	    "type": "color",
+	    "value": "#6600CC"
+	},
+	{
+	    "name": "overrideExceptions",
+	    "title": "overrideExceptions",
+	    "type": "string",
+	    "value": ""
+	}]
+}
